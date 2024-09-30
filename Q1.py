@@ -12,22 +12,19 @@ Sample Input:
 Sample Output:
 6 less than 8
 
-2)Write a program to check whether the given character is vowel or consonant.
-Input format:
-The input consist of a character
-Output format:
-The output consists of a below-given string
-“Vowel” / “Consonant” / “Not an alphabet”
-Sample Input:
-e
-
-Sample Output:
-Vowel
 '''
-=input()
-if(a=='a' or a=='e' or a=='i' or a=='o' or a=='u'):
-    print('Vowel')
-elif(a>'a' and 'a'<a):
-    print("Consonant")
-else:
-    print("Not an alphabet")
+def compare_numbers():
+    # Input the two integers
+    x = int(input())
+    y = int(input())
+    
+    # Compare the two integers and output the result
+    if x == y:
+        print(f"{x} and {y} are equal")
+    elif x > y:
+        print(f"{x} greater than {y}")
+    else:
+        print(f"{x} less than {y}")
+
+# Call the function to compare the numbers
+compare_numbers()
